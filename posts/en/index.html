@@ -39,6 +39,27 @@
     </header>
     <main class="container">
       <article>
+        <h3><a name="2020-05-11">A retrospective of my spring 2020 semester</a></h3><h5><time datetime="2020-05-11">May 11th, 2020</time></h5>
+        <p>
+          So the second semester of my junior year at UT is basically over. I just have a final in probability left and then I'm onto my senior year. It's sort of a weird feeling, being so close to (hopefully) graduating and then being done with school forever. That's ignoring the fact that this is just a weird semester anyways. COVID-19 came out of basically nowhere and I've been stuck at my mom's house for the past 2 months. Maybe it wasn't the best semester to take OS...
+        </p>
+        <p>
+          Speaking of OS, I think that I've learned a lot in it. Our first project was creating a basic <a href="https://github.com/bwbuhse/yash" target="_blank">shell</a>. Admittedly, I hadn't done C in a while at the time of that program, so my code is a little janky. It's all in one file and probably could have made better use of structs to be cleaner. Regardless, I got it working and it was a really fun experience. After that, we moved onto working in <a href="https://web.stanford.edu/class/cs140/projects/pintos/pintos.html" target="_blank">Pintos</a>, an instructional OS that's used by a few different universities. The first project we had in that was to get user programs working. It involved implementing syscalls and setting up the user program's stack correctly. The biggest challenges of that project, for me, were getting the wait and dealing with various seg faults that my partner and I introduced on the way. In the end, it was pretty fun and <i>extremely</i> satisfying once we got all of the test cases passing.
+        </p>
+        <p>
+          After user programs, we had to set up virtual memory. That project was significantly more difficult than the first. I think it took my partner and I about 30 hours on Zoom together, plus lots of time working on our own. Somehow, we managed to get all but a single test case passing! Honestly, the biggest pain-in-the-ass was all of the synchronization that we had to do. Since we implemented paging, we control access to the, at the time, single-threaded file system. Other than that, we also needed to synchronize access to our supplemental page table and to our frame table. Making sure that they were all synchronized correctly, and that we weren't page faulting from within any of their functions, took a ton of time. Seeing the last few test cases (besides the one that we never got working) switch to passing was truly a beautiful site.
+        </p>
+        <p>
+          Other than OS, my most interesting class of the semester was GER 506, the first-semester of German at UT. I lived in Switzerland (near-ish to Zurich) from the ages of 5 to 9 and used to be pretty good at German. Sadly, I lost most of it since moving back to the US. Since I can use German as an elective for my degree, I figured I'd give the class a shot. It ended up being really fun and a lot of it came back to me really easily. My professor was also pretty great and I enjoyed the people in the class. I can't take the next class, because I'm so close to graduating and don't have space if I'm to take the classes I need for that, but I'm going to try and keep learning German in my own time. I even have some posts on this site in German!
+        </p>
+        <p>
+          In my own time, I recreated my website with (mostly) pure HTML and CSS, started to try learn some Rust, and started using Arch Linux on my laptop. I don't really think any of those are too important, but they're things I did. I like the way my website has turned out, and it's a lot simpler to work on now. As far as Arch goes, it's just something that seemed fun to do and I've liked it a lot so far. Only almost messed it up one (1) time!
+         </p>
+         <p>
+           Anyways, thanks for reading! I'm excited to see how I continue to use this site and how the rest of my time in university will go. :) 
+         </p>
+      </article>
+      <article>
         <h3><a name="2020-04-29">What's in a website?</a></h3><h5><time datetime="2020-04-29">April 29th, 2020</time></h5>
         <p>
           Honestly, I don't know what exactly I'm going to do here. I know that the title of this "post" is stupid and cheesy, but get over it. I guess eventually I'll try to post things about any projects I'm working on. I'd also like to post about random interesting stuff I find online, or even just my life. Anyways, this is my first post. Who knows if this layout will stick but I wanted to try it out and see what it looks like. 
